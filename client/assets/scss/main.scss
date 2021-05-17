@@ -1,0 +1,20 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: .5rem;
+}
+.list__item {
+  padding: .5rem 1rem;
+  border: thin solid black;
+  border-radius: 15px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 50px 1fr 50px;
+  user-select: none;
+}
+.content {
+  display: grid;
+  grid-auto-flow: column;
+}
